@@ -1,0 +1,14 @@
+django==3.2
+django-environ
+djangorestframework
+django-filter
+pillow
+requests
+pyjwt
+
+# postgresql
+psycopg2-binary
+
+# elasticsearch
+django-elasticsearch-dsl
+django-elasticsearch-dsl-drf
