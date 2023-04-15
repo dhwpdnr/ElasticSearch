@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     "django_filters",
     "django_elasticsearch_dsl",
     "django_elasticsearch_dsl_drf",
-
+    "shop",
+    "product"
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ELASTICSEARCH_DSL = {
+    "default": {
+        "hosts": "localhost:9200",
+        "index_prefix": "",
+    },
+}
