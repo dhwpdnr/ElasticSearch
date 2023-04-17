@@ -138,3 +138,5 @@ ELASTICSEARCH_DSL = {
         "index_prefix": "",
     },
 }
+
+ELASTICSEARCH_DSL_AUTOSYNC = True
